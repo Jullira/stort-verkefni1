@@ -2,3 +2,55 @@
   max-width: 1200px;
   margin: auto;
 }
+
+.row .list_og_mynd {
+  display: flex;
+}
+
+header {
+  background-attachment: fixed;
+  background-position: right top;
+  background-image: url("bg.jpg");
+
+}
+
+.nav {
+  background-color: #333;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav .li {
+  float: right;
+}
+
+.nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav ul {
+  width: 100%;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav li a:hover {
+  background-color: #111;
+}
+
+.header__content {
+}
