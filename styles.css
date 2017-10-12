@@ -89,6 +89,7 @@ main {
   text-align: center;
   text-decoration: none; }
 
+/* Þetta er ekki að virka rétt, fyrir cover myndina */
 .header_mynd {
   display: flex;
   width: 100%;
@@ -113,11 +114,12 @@ main {
 .card img {
   /* stylelint-disable-line */
   display: flex;
-  border-radius: 1000px;
+  width: 75%;
   height: 75%;
-  width: 75%; }
+  border-radius: 1000px; }
 
 .card {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center; }
