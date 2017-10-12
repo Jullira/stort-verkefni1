@@ -100,8 +100,12 @@ ul {
 
 li a {
   display: block;
-  padding: 1em;
-  background-color: #ddd; }
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  /* 1em;*/
+  text-decoration: none;
+  /*background-color: #ddd;*/ }
 
 li {
   float: left;
