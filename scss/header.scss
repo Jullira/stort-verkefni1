@@ -21,5 +21,22 @@
 }
 
 .header_mynd {
+  display: flex;
+  width: 100%;
+  min-height: 500px;
+  margin-bottom: 2em;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
 
+.header_content {
+  display: flex;
+  font-size: 24px;
+}
+
+.takki {
+  font-size: 30px;
 }
