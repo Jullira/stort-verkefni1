@@ -85,47 +85,43 @@ main {
   /* stylelint-disable-line */
   display: block;
   padding: 14px 16px;
-  color: white;
+  color: #fff;
   text-align: center;
   text-decoration: none; }
 
-/* Þetta er ekki að virka rétt, fyrir cover myndina */
-.header_mynd {
-  /*display: flex;
-  width: 100%;
-  min-height: 500px;
-  margin-bottom: 2em;
-  flex-direction: column;
-  background-repeat: no-repeat;
+/* Stillir upp forsíðu mynd í index.html*/
+/* stylelint-disable-line */
+.forsida_forsida {
+  background: url(img/bg.jpg);
+  /* stylelint-disable-line */
   background-attachment: fixed;
-  background-size: cover;
-  background-position: center; */ }
+  background-position: center center;
+  background-size: cover; }
 
-.header_content {
-  position: relative;
-  width: 100%;
+/* Stillir upp forsíðu mynd í about.html*/
+/* stylelint-disable-line */
+.um_um {
+  background: url(img/bg-subpage.jpg);
+  /* stylelint-disable-line */
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+
+/* Stillir upp forsíðu mynd í kaupa.html*/
+/* stylelint-disable-line */
+.kaupa_kaupa {
+  background: url(img/bg-subpage.jpg);
+  /* stylelint-disable-line */
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+
+.header__content {
+  min-height: 600px;
   text-align: center; }
 
 .takki {
   font-size: 30px; }
-
-.forsida_forsida {
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  background: url(img/bg.jpg); }
-
-.um_um {
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  background: url(img/bg-subpage.jpg); }
-
-.kaupa_kaupa {
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  background: url(img/bg-subpage.jpg); }
 
 .check {
   width: 25px; }
