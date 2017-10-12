@@ -69,25 +69,30 @@ main {
   .offset-sm-0 {
     margin-left: 0; } }
 
-.menubar ul {
+.menubar {
+  /*Lætur menubar-inn vera stopp efst á síðunni*/
   /* stylelint-disable-line */
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  list-style-type: none;
-  background-color: #333; }
-
-.menubar li {
-  /* stylelint-disable-line */
-  float: left; }
-
-.menubar li a {
-  /* stylelint-disable-line */
-  display: block;
-  padding: 14px 16px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none; }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden; }
+  .menubar ul {
+    /* stylelint-disable-line */
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background: rgba(0, 0, 0, 0.5); }
+  .menubar li {
+    /* stylelint-disable-line */
+    float: left; }
+  .menubar li a {
+    /* stylelint-disable-line */
+    display: block;
+    padding: 14px 16px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none; }
 
 /* Stillir upp forsíðu mynd í index.html*/
 /* stylelint-disable-line */
@@ -116,12 +121,27 @@ main {
   background-position: center center;
   background-size: cover; }
 
-.header__content {
-  min-height: 600px;
-  text-align: center; }
+header .header__content {
+  /* stylelint-disable-line */
+  display: flex;
+  width: 100%;
+  min-height: 800px;
+  padding: 2em;
+  margin-bottom: 2em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.header__content h1 {
+  /* stylelint-disable-line */
+  font-size: 4.5em; }
+
+.header__content p {
+  /* stylelint-disable-line */
+  font-size: 2.5em; }
 
 .takki {
-  font-size: 30px; }
+  font-size: 3.5em; }
 
 .check {
   width: 25px; }
