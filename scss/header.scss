@@ -22,7 +22,7 @@
 
 /* Þetta er ekki að virka rétt, fyrir cover myndina */
 .header_mynd {
-  display: flex;
+  /*display: flex;
   width: 100%;
   min-height: 500px;
   margin-bottom: 2em;
@@ -30,14 +30,36 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
 .header_content {
-  display: flex;
-  font-size: 24px;
+  position: relative;
+  width: 100%;
+  text-align: center;
 }
 
 .takki {
   font-size: 30px;
+}
+
+.forsida_forsida {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background: url(img/bg.jpg);
+}
+
+.um_um {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background: url(img/bg-subpage.jpg);
+}
+
+.kaupa_kaupa {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background: url(img/bg-subpage.jpg);
 }
