@@ -1,5 +1,5 @@
-header {
-  ul { /* stylelint-disable-line */
+.menubar {
+  ul {/* stylelint-disable-line */
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -7,23 +7,19 @@ header {
     background-color: #333;
   }
 
-  li { /* stylelint-disable-line */
+  li {/* stylelint-disable-line */
     float: left;
   }
 
-  li a { /* stylelint-disable-line */
+  li a {/* stylelint-disable-line */
     display: block;
     padding: 14px 16px;
     color: white;
     text-align: center;
     text-decoration: none;
   }
+}
 
-  li a:hover:not(.active) { /* stylelint-disable-line */
-    background-color: #111;
-  }
+.header_mynd {
 
-  .active { /* stylelint-disable-line */
-    background-color: #4CAF50;
-  }
 }
