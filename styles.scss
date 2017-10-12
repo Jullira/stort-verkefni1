@@ -16,13 +16,17 @@ html { /* stylelint-disable-line */
   margin-right: $gutter;
   margin-left: $gutter;
 
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: "Open Sans", sans-serif, helvetica, arial;
   font-size: 16px;
   line-height: 1.5;
 
   @media (min-width: $max-width) {
     margin: 0;
   }
+}
+
+h1 h2 h3 { /* stylelint-disable-line */
+  font-family: "Roboto Slab", serif, helvetica, arial;
 }
 
 img { /* stylelint-disable-line */

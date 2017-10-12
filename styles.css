@@ -10,12 +10,16 @@ html {
   /* stylelint-disable-line */
   margin-right: 20px;
   margin-left: 20px;
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: "Open Sans", sans-serif, helvetica, arial;
   font-size: 16px;
   line-height: 1.5; }
   @media (min-width: 1200px) {
     html {
       margin: 0; } }
+
+h1 h2 h3 {
+  /* stylelint-disable-line */
+  font-family: "Roboto Slab", serif, helvetica, arial; }
 
 img {
   /* stylelint-disable-line */
