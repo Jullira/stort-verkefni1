@@ -113,4 +113,11 @@ main {
 .card img {
   /* stylelint-disable-line */
   display: flex;
-  border-radius: 1000px; }
+  border-radius: 1000px;
+  height: 75%;
+  width: 75%; }
+
+.card {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; }
