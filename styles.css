@@ -1,9 +1,9 @@
-body {
-  max-width: 1200px;
-  margin: auto; }
-
 .header {
   background-image: url("/img/bg.jpg");
+  justify-content: center; }
+
+.header_image {
+  width: 100%;
   justify-content: center; }
 
 .menubar {
@@ -15,10 +15,6 @@ body {
 
 .menubar_text {
   color: white; }
-
-.header_image {
-  width: 100%;
-  justify-content: center; }
 
 ul {
   padding: 0;
