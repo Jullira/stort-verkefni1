@@ -74,29 +74,40 @@ main {
     margin-left: 0; } }
 
 .menubar {
-  /*Lætur menubar-inn vera stopp efst á síðunni*/
-  /* stylelint-disable-line */
-  position: fixed;
-  top: 0;
-  width: 100%;
-  overflow: hidden; }
-  .menubar ul {
-    /* stylelint-disable-line */
-    padding: 0;
+  /*ul {/* stylelint-disable-line */
+  /*padding: 0;
     margin: 0;
     overflow: hidden;
     list-style-type: none;
-    background: rgba(0, 0, 0, 0.5); }
-  .menubar li {
-    /* stylelint-disable-line */
-    float: left; }
-  .menubar li a {
-    /* stylelint-disable-line */
-    display: block;
+    background: rgba(black, 0.5);
+  }*/
+  /*li {/* stylelint-disable-line */
+  /*float: left;
+  }
+
+  li a {/* stylelint-disable-line */
+  /*  display: block;
     padding: 14px 16px;
     color: #fff;
     text-align: center;
-    text-decoration: none; }
+    text-decoration: none;
+  }*/
+  /*Lætur menubar-inn vera stopp efst á síðunni*/
+  /* stylelint-disable-line */
+  z-index: 1;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  xtop: 0;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.menubar a {
+  color: #fff;
+  text-decoration: none; }
 
 /* Stillir upp forsíðu mynd í index.html*/
 /* stylelint-disable-line */
