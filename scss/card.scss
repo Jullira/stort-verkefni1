@@ -1,13 +1,11 @@
-.card img {/* stylelint-disable-line */
+.card {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card img {
   width: 75%;
   height: 75%;
   border-radius: 1000px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
 }

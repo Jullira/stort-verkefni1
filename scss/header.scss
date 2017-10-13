@@ -1,40 +1,42 @@
 .menubar {
-  /*ul {/* stylelint-disable-line */
-    /*padding: 0;
-    margin: 0;
-    overflow: hidden;
-    list-style-type: none;
-    background: rgba(black, 0.5);
-  }*/
-
-  /*li {/* stylelint-disable-line */
-    /*float: left;
-  }
-
-  li a {/* stylelint-disable-line */
-  /*  display: block;
-    padding: 14px 16px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-  }*/
-  /*Lætur menubar-inn vera stopp efst á síðunni*/ /* stylelint-disable-line */
-
   z-index: 1;
   position: fixed;
-  background: rgba(black, 0.5);
-  xtop: 0;
-  width: 100%;
+  background: rgba(black, 1);
+  width: $max-width;
   height: 60px;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  border-radius: 10px;
 
-.menubar a {
-  color: #fff;
-  text-decoration: none;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+  }
+
+  li {
+    float:left;
+  }
+
+  li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #333;
+  }
+
+  li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
 }
 
 /* Stillir upp forsíðu mynd í index.html*/ /* stylelint-disable-line */
@@ -79,5 +81,9 @@ header .header__content{ /* stylelint-disable-line */
 }
 
 .takki {
-  font-size: 3.5em;
+  font-size: 2em;
+  color: white;
+  background: rgba(black, 0.8);
+  border-radius: 10px;
+  padding: 0.5em 1em;
 }
