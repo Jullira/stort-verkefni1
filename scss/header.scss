@@ -1,39 +1,39 @@
 .menubar {
-  z-index: 1;
   position: fixed;
-  background: rgba(black, 1);
+  z-index: 1;
   width: $max-width;
   height: 60px;
   overflow: hidden;
+  background: rgba(#000, 1);
   border-radius: 10px;
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  ul { /* stylelint-disable-line */
     width: inherit;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
   }
 
-  li {
+  li { /* stylelint-disable-line */
     float:left;
   }
 
-  li a {
+  li a { /* stylelint-disable-line */
     display: block;
     padding: 14px 16px;
-    color: white;
+    color: #fff;
     text-align: center;
     text-decoration: none;
   }
 
-  li a:hover {
+  li a:hover { /* stylelint-disable-line */
     background-color: #333;
   }
 
-  li a {
+  li a { /* stylelint-disable-line */
     display: block;
     padding: 14px 16px;
-    color: white;
+    color: #fff;
     text-align: center;
     text-decoration: none;
   }
@@ -52,6 +52,7 @@
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  color: #fff;
 }
 /* Stillir upp forsíðu mynd í kaupa.html*/ /* stylelint-disable-line */
 .kaupa_kaupa {
@@ -59,6 +60,16 @@
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+}
+
+.um_um .header__content {
+  display: flex;
+  color: #fff;
+}
+
+.kaupa_kaupa .header__content {
+  display: flex;
+  color: #fff;
 }
 
 header .header__content{ /* stylelint-disable-line */
@@ -73,7 +84,7 @@ header .header__content{ /* stylelint-disable-line */
 }
 
 .header__content h1 {/* stylelint-disable-line */
-  font-size: 4.5em;
+  font-size: 4em;
 }
 
 .header__content p {/* stylelint-disable-line */
@@ -81,9 +92,9 @@ header .header__content{ /* stylelint-disable-line */
 }
 
 .takki {
-  font-size: 2em;
-  color: white;
-  background: rgba(black, 0.8);
-  border-radius: 10px;
   padding: 0.5em 1em;
+  font-size: 2em;
+  color: #fff;
+  background: rgba(#000, 0.8);
+  border-radius: 10px;
 }
