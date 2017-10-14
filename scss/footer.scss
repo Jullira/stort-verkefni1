@@ -1,3 +1,7 @@
+footer {
+  margin-top: 6em;
+}
+
 .box {
   right: 0;
   bottom: 0;
@@ -24,3 +28,14 @@
   text-align: center;
   xalign-items: center;
 }
+
+/*
+footer {
+  display: flex;
+  padding: 5em;
+}
+
+footer p {
+  margin: auto;;
+  font-size: 2em;
+}*/

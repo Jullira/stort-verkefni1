@@ -84,6 +84,9 @@ main {
   .offset-xs-0 {
     margin-left: 0; } }
 
+header {
+  margin-bottom: 6em; }
+
 .menubar {
   position: fixed;
   z-index: 1;
@@ -194,6 +197,9 @@ header .header__content {
   height: 75%;
   border-radius: 1000px; }
 
+footer {
+  margin-top: 6em; }
+
 .box {
   right: 0;
   bottom: 0;
@@ -217,3 +223,20 @@ header .header__content {
   xjustify-content: center;
   text-align: center;
   xalign-items: center; }
+
+/*
+footer {
+  display: flex;
+  padding: 5em;
+}
+
+footer p {
+  margin: auto;;
+  font-size: 2em;
+}*/
+blockquote {
+  margin: 1em 0 1em 2em;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.5;
+  xfont-family: 'Droid Serif', serif; }
