@@ -181,11 +181,26 @@ header .header__content {
   font-size: 2em;
   color: #fff;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 10px; }
+  background: rgba(80, 80, 80, 0.8);
+  border-radius: 5px; }
 
 .check {
   width: 25px; }
+
+.nedri_kaupa_takki {
+  padding: 0.5em 2em;
+  font-size: 3em;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(80, 80, 80, 0.8);
+  border-radius: 5px; }
+
+.kaupa_spurning {
+  text-align: center; }
+
+.kaupa_spurning h2 {
+  margin-bottom: 2em;
+  font-size: 2em; }
 
 .card {
   display: flex;
