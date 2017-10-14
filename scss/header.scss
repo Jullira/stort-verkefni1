@@ -56,7 +56,6 @@ header {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  color: #fff;
 }
 /* Stillir upp forsíðu mynd í kaupa.html*/ /* stylelint-disable-line */
 .kaupa_kaupa {
@@ -99,6 +98,7 @@ header .header__content{ /* stylelint-disable-line */
   padding: 0.5em 1em;
   font-size: 2em;
   color: #fff;
+  text-decoration: none;
   background: rgba(#000, 0.8);
   border-radius: 10px;
 }

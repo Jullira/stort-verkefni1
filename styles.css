@@ -138,8 +138,7 @@ header {
   /* stylelint-disable-line */
   background-attachment: fixed;
   background-position: center center;
-  background-size: cover;
-  color: #fff; }
+  background-size: cover; }
 
 /* Stillir upp forsíðu mynd í kaupa.html*/
 /* stylelint-disable-line */
@@ -181,6 +180,7 @@ header .header__content {
   padding: 0.5em 1em;
   font-size: 2em;
   color: #fff;
+  text-decoration: none;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 10px; }
 
