@@ -1,15 +1,26 @@
 .box {
-  padding: 0.5em 1em;
-  font-size: 1em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   color: #fff;
+  xtext-align: center;
   background: rgba(#000, 0.8);
 }
 
 .foobox {
-  
+  xdisplay: flex;
+  xjustify-content: center;
+  text-align: center;
+  xalign-items: center;
+  xleft: 50%;
 }
 
 .barbox {
   color: #d3d3d3;
   border-top: solid #d3d3d3;
+  xdisplay: flex;
+  xjustify-content: center;
+  text-align: center;
+  xalign-items: center;
 }
