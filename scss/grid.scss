@@ -88,4 +88,11 @@
       }
     }
   }
+  &-xs {
+    @media (max-width: 399px) {
+      &-0 {
+        margin-left: 0;
+      }
+    }
+  }
 }

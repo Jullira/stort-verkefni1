@@ -80,6 +80,10 @@ main {
   .offset-sm-0 {
     margin-left: 0; } }
 
+@media (max-width: 399px) {
+  .offset-xs-0 {
+    margin-left: 0; } }
+
 .menubar {
   position: fixed;
   z-index: 1;
@@ -189,3 +193,13 @@ header .header__content {
   width: 75%;
   height: 75%;
   border-radius: 1000px; }
+
+.box {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8); }
+
+.barbox {
+  color: #d3d3d3;
+  border-top: solid #d3d3d3; }
