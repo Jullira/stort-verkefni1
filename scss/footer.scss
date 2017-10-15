@@ -13,29 +13,21 @@ footer {
 }
 
 .foobox {
+  text-align: center;
+
   xdisplay: flex;
   xjustify-content: center;
-  text-align: center;
   xalign-items: center;
   xleft: 50%;
 }
 
 .barbox {
+  margin-top: 1em;
+  margin-bottom: 1em;
   color: #d3d3d3;
-  border-top: solid #d3d3d3;
-  xdisplay: flex;
-  xjustify-content: center;
   text-align: center;
-  xalign-items: center;
 }
 
-/*
-footer {
-  display: flex;
-  padding: 5em;
+.barbarbox {
+  border-top: solid #d3d3d3;
 }
-
-footer p {
-  margin: auto;;
-  font-size: 2em;
-}*/

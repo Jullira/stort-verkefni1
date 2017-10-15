@@ -225,30 +225,21 @@ footer {
   background: rgba(0, 0, 0, 0.8); }
 
 .foobox {
+  text-align: center;
   xdisplay: flex;
   xjustify-content: center;
-  text-align: center;
   xalign-items: center;
   xleft: 50%; }
 
 .barbox {
+  margin-top: 1em;
+  margin-bottom: 1em;
   color: #d3d3d3;
-  border-top: solid #d3d3d3;
-  xdisplay: flex;
-  xjustify-content: center;
-  text-align: center;
-  xalign-items: center; }
+  text-align: center; }
 
-/*
-footer {
-  display: flex;
-  padding: 5em;
-}
+.barbarbox {
+  border-top: solid #d3d3d3; }
 
-footer p {
-  margin: auto;;
-  font-size: 2em;
-}*/
 blockquote {
   margin: 1em 0 1em 2em;
   font-size: 1.5em;
