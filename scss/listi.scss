@@ -1,5 +1,7 @@
-.listi {
-
+.listi_og_mynd {
+  display: flex;
+  flex-wrap: wrap;
+  width: $max-width;
 }
 
 .check {
@@ -22,4 +24,8 @@
 .kaupa_spurning h2 {
   margin-bottom: 2em;
   font-size: 2em;
+}
+
+.listi {
+  max-width: 50%;
 }

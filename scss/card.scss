@@ -1,11 +1,19 @@
 .card {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   justify-content: center;
 }
 
 .card img {
-  width: 75%;
   height: 75%;
+  width: 75%;
   border-radius: 1000px;
+}
+
+.row_of_cards {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
