@@ -80,12 +80,13 @@ main {
     margin-left: 0; } }
 
 header {
+  /* stylelint-disable-line */
   margin-bottom: 6em; }
 
 .menubar {
   position: fixed;
   z-index: 1;
-  width: 1200px;
+  width: 100%;
   height: 60px;
   overflow: hidden;
   background: black;
@@ -117,7 +118,7 @@ header {
     text-align: center;
     text-decoration: none; }
 
-/* Stillir upp forsíðu mynd í index.html*/
+/* Stillir upp forsíðu mynd í index.html */
 /* stylelint-disable-line */
 .forsida_forsida {
   background: url("img/bg.jpg");
@@ -126,7 +127,7 @@ header {
   background-position: center center;
   background-size: cover; }
 
-/* Stillir upp forsíðu mynd í about.html*/
+/* Stillir upp forsíðu mynd í about.html */
 /* stylelint-disable-line */
 .um_um {
   background: url("img/bg-subpage.jpg");
@@ -135,7 +136,7 @@ header {
   background-position: center center;
   background-size: cover; }
 
-/* Stillir upp forsíðu mynd í kaupa.html*/
+/* Stillir upp forsíðu mynd í kaupa.html */
 /* stylelint-disable-line */
 .kaupa_kaupa {
   background: url("img/bg-subpage.jpg");
@@ -191,7 +192,7 @@ header .header__content {
 
 .nedri_kaupa_takki {
   padding: 0.5em 2em;
-  font-size: 3em;
+  font-size: 2em;
   color: #fff;
   text-decoration: none;
   background: rgba(80, 80, 80, 0.8);
@@ -200,7 +201,7 @@ header .header__content {
 .kaupa_spurning {
   text-align: center; }
 
-.kaupa_spurning h2 {
+.kaupa_spurning h3 {
   margin-bottom: 2em;
   font-size: 2em; }
 
@@ -228,7 +229,8 @@ header .header__content {
   display: flex;
   max-width: 1200px;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-bottom: 5em; }
 
 .card_text {
   text-align: center; }
@@ -238,6 +240,7 @@ header .header__content {
   font-style: italic; }
 
 footer {
+  /*disable-line stylelint */
   margin-top: 6em; }
 
 .box {
@@ -259,11 +262,16 @@ footer {
 .barbox {
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #d3d3d3;
+  color: #696969;
   text-align: center; }
 
 .barbarbox {
-  border-top: 1px solid #d3d3d3; }
+  border-top: 1px solid #696969; }
+
+.fooboxbox {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em; }
 
 blockquote {
   margin: 1em 0 1em 2em;
@@ -271,3 +279,11 @@ blockquote {
   font-style: italic;
   line-height: 1.5;
   xfont-family: 'Droid Serif', serif; }
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center; }
+
+form {
+  align-items: center; }
