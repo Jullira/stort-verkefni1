@@ -182,7 +182,9 @@ header .header__content {
 .listi_og_mynd {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px; }
+  width: 1200px;
+  margin-top: 10em;
+  margin-bottom: 10em; }
 
 .check {
   width: 25px; }
@@ -204,6 +206,11 @@ header .header__content {
 
 .listi {
   max-width: 50%; }
+
+.listi li {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  list-style-type: none; }
 
 .card {
   display: flex;
