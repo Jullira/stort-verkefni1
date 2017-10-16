@@ -240,7 +240,7 @@ header .header__content {
   font-style: italic; }
 
 footer {
-  /*disable-line stylelint */
+  /* stylelint-disable-line */
   margin-top: 6em; }
 
 .box {
@@ -286,4 +286,45 @@ blockquote {
   align-content: center; }
 
 form {
-  align-items: center; }
+  /* stylelint-disable-line */
+  display: table;
+  margin: 0 auto; }
+
+.form li {
+  /* stylelint-disable-line */
+  list-style-type: none; }
+
+form input {
+  /* stylelint-disable-line */
+  margin-bottom: 1em; }
+
+form h2 {
+  /* stylelint-disable-line */
+  margin-bottom: 1em; }
+
+.panta_takki {
+  padding: 0.5em 5em;
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  background: rgba(80, 80, 80, 0.8);
+  border-radius: 5px;
+  margin: 0 auto; }
+
+input[type=text] {
+  /* stylelint-disable-line */
+  width: 150%;
+  height: 1.5em;
+  border: 1px solid #696969;
+  border-radius: 3px; }
+
+select {
+  /* stylelint-disable-line */
+  width: 150%;
+  height: 1.5em;
+  border: 1px solid #696969;
+  border-radius: 3px; }
+
+select:hover {
+  /* stylelint-disable-line */
+  background-color: #A0A0A0A0; }
