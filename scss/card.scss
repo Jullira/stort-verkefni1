@@ -13,8 +13,17 @@
 }
 
 .row_of_cards {
-  max-width: 1200px;
   display: flex;
+  max-width: 1200px;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.card_text {
+  text-align: center;
+}
+
+.card_text h3 {
+  margin-bottom: 1em;
+  font-style: italic;
 }

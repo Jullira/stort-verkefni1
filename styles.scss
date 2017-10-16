@@ -9,24 +9,25 @@ $gutter: 20px;
   margin: 0;
 }
 
+main {  /* stylelint-disable-line */
+  font-family: "Open Sans", sans-serif, helvetica, ariel;
+}
+
+h1, h2, h3, a {/* stylelint-disable-line */
+  font-family: "Roboto Slab", serif, helvetica, ariel;
+}
 html { /* stylelint-disable-line */
   // til þess að texti liggi ekki upp við brún á viewport þegar
   // við erum < 1200px breiðum skjá, setjum margin á báða kanta html
   // ruglar líka ekki í grid overlay
   margin-right: $gutter/2;
   margin-left: $gutter/2;
-
-  font-family: "Open Sans", sans-serif, helvetica, arial;
   font-size: 16px;
   line-height: 1.5;
 
   @media (min-width: $max-width) {
     margin: 0;
   }
-}
-
-h1 h2 h3 { /* stylelint-disable-line */
-  font-family: "Roboto Slab", serif, helvetica, arial;
 }
 
 img { /* stylelint-disable-line */
