@@ -1,18 +1,21 @@
+$max-width: 1200px;
+$gutter: 20px;
+
 .row {
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
   margin-right: -($gutter / 2);
   margin-bottom: $gutter;
   margin-left: -($gutter / 2);
 }
 
-.row_of_cards {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -($gutter / 2);
-  margin-bottom: $gutter;
-  margin-left: -($gutter / 2);
-}
+// .row_of_cards {
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-right: -($gutter / 2);
+  // margin-bottom: $gutter;
+//   margin-left: -($gutter / 2);
+// }
 
 // mixin sem reiknar nákvæmar prósentur útfrá dálkum
 @mixin columns($col: 1) {

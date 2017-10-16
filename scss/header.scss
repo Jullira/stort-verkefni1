@@ -10,19 +10,24 @@ header {
   overflow: hidden;
   background: rgba(#000, 1);
   border-radius: 10px;
+  left: 51px;
 
-  ul { /* stylelint-disable-line */
+
+  ul {
+    /* stylelint-disable-line */
     width: inherit;
     padding: 0;
     margin: 0;
     list-style-type: none;
   }
 
-  li { /* stylelint-disable-line */
-    float:left;
+  li {
+    /* stylelint-disable-line */
+    float: left;
   }
 
-  li a { /* stylelint-disable-line */
+  li a {
+    /* stylelint-disable-line */
     display: block;
     padding: 14px 16px;
     color: #fff;
@@ -30,11 +35,13 @@ header {
     text-decoration: none;
   }
 
-  li a:hover { /* stylelint-disable-line */
+  li a:hover {
+    /* stylelint-disable-line */
     background-color: #333;
   }
 
-  li a { /* stylelint-disable-line */
+  li a {
+    /* stylelint-disable-line */
     display: block;
     padding: 14px 16px;
     color: #fff;
@@ -42,24 +49,32 @@ header {
     text-decoration: none;
   }
 }
+/* Stillir upp forsíðu mynd í index.html*/
+/* stylelint-disable-line */
 
-/* Stillir upp forsíðu mynd í index.html*/ /* stylelint-disable-line */
 .forsida_forsida {
-  background: url(img/bg.jpg); /* stylelint-disable-line */
+  background: url("img/bg.jpg");
+  /* stylelint-disable-line */
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
-/* Stillir upp forsíðu mynd í about.html*/ /* stylelint-disable-line */
+/* Stillir upp forsíðu mynd í about.html*/
+/* stylelint-disable-line */
+
 .um_um {
-  background: url(img/bg-subpage.jpg); /* stylelint-disable-line */
+  background: url("img/bg-subpage.jpg");
+  /* stylelint-disable-line */
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
-/* Stillir upp forsíðu mynd í kaupa.html*/ /* stylelint-disable-line */
+/* Stillir upp forsíðu mynd í kaupa.html*/
+/* stylelint-disable-line */
+
 .kaupa_kaupa {
-  background: url(img/bg-subpage.jpg); /* stylelint-disable-line */
+  background: url("img/bg-subpage.jpg");
+  /* stylelint-disable-line */
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -75,7 +90,8 @@ header {
   color: #fff;
 }
 
-header .header__content{ /* stylelint-disable-line */
+header .header__content {
+  /* stylelint-disable-line */
   display: flex;
   width: 100%;
   min-height: 800px;
@@ -86,11 +102,13 @@ header .header__content{ /* stylelint-disable-line */
   align-items: center;
 }
 
-.header__content h1 {/* stylelint-disable-line */
+.header__content h1 {
+  /* stylelint-disable-line */
   font-size: 4em;
 }
 
-.header__content p {/* stylelint-disable-line */
+.header__content p {
+  /* stylelint-disable-line */
   font-size: 2.5em;
 }
 

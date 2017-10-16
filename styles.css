@@ -8,8 +8,8 @@
 
 html {
   /* stylelint-disable-line */
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   font-family: "Open Sans", sans-serif, helvetica, arial;
   font-size: 16px;
   line-height: 1.5; }
@@ -32,15 +32,6 @@ main {
   overflow-x: hidden; }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -10px;
-  margin-bottom: 20px;
-  margin-left: -10px; }
-
-.row_of_cards {
-  display: flex;
-  flex-wrap: wrap;
   margin-right: -10px;
   margin-bottom: 20px;
   margin-left: -10px; }
@@ -94,7 +85,8 @@ header {
   height: 60px;
   overflow: hidden;
   background: black;
-  border-radius: 10px; }
+  border-radius: 10px;
+  left: 51px; }
   .menubar ul {
     /* stylelint-disable-line */
     width: inherit;
@@ -125,7 +117,7 @@ header {
 /* Stillir upp forsíðu mynd í index.html*/
 /* stylelint-disable-line */
 .forsida_forsida {
-  background: url(img/bg.jpg);
+  background: url("img/bg.jpg");
   /* stylelint-disable-line */
   background-attachment: fixed;
   background-position: center center;
@@ -134,7 +126,7 @@ header {
 /* Stillir upp forsíðu mynd í about.html*/
 /* stylelint-disable-line */
 .um_um {
-  background: url(img/bg-subpage.jpg);
+  background: url("img/bg-subpage.jpg");
   /* stylelint-disable-line */
   background-attachment: fixed;
   background-position: center center;
@@ -143,7 +135,7 @@ header {
 /* Stillir upp forsíðu mynd í kaupa.html*/
 /* stylelint-disable-line */
 .kaupa_kaupa {
-  background: url(img/bg-subpage.jpg);
+  background: url("img/bg-subpage.jpg");
   /* stylelint-disable-line */
   background-attachment: fixed;
   background-position: center center;
@@ -238,7 +230,7 @@ footer {
   text-align: center; }
 
 .barbarbox {
-  border-top: solid #d3d3d3; }
+  border-top: 1px solid #d3d3d3; }
 
 blockquote {
   margin: 1em 0 1em 2em;
