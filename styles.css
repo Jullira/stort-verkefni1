@@ -273,13 +273,6 @@ footer {
   justify-content: space-around;
   margin-bottom: 2em; }
 
-blockquote {
-  margin: 1em 0 1em 2em;
-  font-size: 1.5em;
-  font-style: italic;
-  line-height: 1.5;
-  xfont-family: 'Droid Serif', serif; }
-
 .form {
   display: flex;
   flex-wrap: wrap;
@@ -328,3 +321,15 @@ select {
 select:hover {
   /* stylelint-disable-line */
   background-color: #A0A0A0A0; }
+
+.about_text {
+  margin: 20px; }
+
+.about_text h2 {
+  margin-bottom: 1em; }
+
+blockquote {
+  margin: 1em 0 1em 2em;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.5; }
