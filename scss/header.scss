@@ -1,13 +1,18 @@
 $max-width: 1200px;
 
-header { /* stylelint-disable-line */
+.header {
   margin-bottom: 6em;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .menubar {
   position: fixed;
   z-index: 1;
-  width: 100%;
+  width: $max-width;
   height: 60px;
   overflow: hidden;
   background: rgba(#000, 1);
@@ -91,7 +96,7 @@ header { /* stylelint-disable-line */
   color: #fff;
 }
 
-header .header__content { /* stylelint-disable-line */
+.header__content {
   display: flex;
   width: 100%;
   min-height: 800px;
@@ -102,19 +107,22 @@ header .header__content { /* stylelint-disable-line */
   align-items: center;
 }
 
-.header__content h1 { /* stylelint-disable-line */
+.header__content__header {
   font-size: 4em;
+  animation: fadein 2s;
 }
 
-.header__content p { /* stylelint-disable-line */
+.header__content__text {
   font-size: 2.5em;
+  animation: fadein 2s;
 }
 
-.takki {
+.header__takki {
   padding: 0.5em 1em;
   font-size: 2em;
   color: #fff;
   text-decoration: none;
   background: rgba(#505050, 0.8);
   border-radius: 5px;
+  animation: fadein 2s;
 }
