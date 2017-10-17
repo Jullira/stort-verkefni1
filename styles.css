@@ -80,7 +80,12 @@ main {
     margin-left: 0; } }
 
 .header {
-  margin-bottom: 6em; }
+  min-height: 800px;
+  margin-bottom: 6em;
+  background: url("img/bg.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
 
 @keyframes fadein {
   from {
@@ -124,32 +129,7 @@ main {
     text-decoration: none; }
 
 /* Stillir upp forsíðu mynd í index.html */
-/* stylelint-disable-line */
-.forsida_forsida {
-  background: url("img/bg.jpg");
-  /* stylelint-disable-line */
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover; }
-
 /* Stillir upp forsíðu mynd í about.html */
-/* stylelint-disable-line */
-.um_um {
-  background: url("img/bg-subpage.jpg");
-  /* stylelint-disable-line */
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover; }
-
-/* Stillir upp forsíðu mynd í kaupa.html */
-/* stylelint-disable-line */
-.kaupa_kaupa {
-  background: url("img/bg-subpage.jpg");
-  /* stylelint-disable-line */
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover; }
-
 .um_um .header__content {
   display: flex;
   color: #fff; }
@@ -161,20 +141,20 @@ main {
 .header__content {
   display: flex;
   width: 100%;
-  min-height: 800px;
+  height: 800px;
   padding: 2em;
-  margin-bottom: 2em;
+  margin: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
 .header__content__header {
   font-size: 4em;
-  animation: fadein 2s; }
+  animation: fadein 3s; }
 
 .header__content__text {
   font-size: 2.5em;
-  animation: fadein 2s; }
+  animation: fadein 3s; }
 
 .header__takki {
   padding: 0.5em 1em;
@@ -183,7 +163,7 @@ main {
   text-decoration: none;
   background: rgba(80, 80, 80, 0.8);
   border-radius: 5px;
-  animation: fadein 2s; }
+  animation: fadein 3s; }
 
 .listi_og_mynd {
   display: flex;
@@ -325,7 +305,10 @@ select {
 
 select:hover {
   /* stylelint-disable-line */
-  background-color: #A0A0A0A0; }
+  background-color: #a0a0a0a0; }
+
+.h1__kaupa {
+  font-size: 5em; }
 
 .about_text {
   margin: 20px; }
