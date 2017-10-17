@@ -14,10 +14,17 @@ $max-width: 1200px;
   to { opacity: 1; }
 }
 
-.menubar {
+.menubar_forsida {
+  @media (max-width: 599px) {
+    width: 562px;
+  }
+  @media (max-width: 399px) {
+    width: 364px;
+  }
   position: fixed;
+  top: 0;
   z-index: 1;
-  width: $max-width;
+  width: 1200px;
   height: 60px;
   overflow: hidden;
   background: rgba(#000, 1);
@@ -82,11 +89,23 @@ $max-width: 1200px;
 }
 
 .header__content__header {
+  @media (max-width: 599px) {
+    font-size: 2.5em;
+  }
+  @media (max-width: 399px) {
+    font-size: 2;
+  }
   font-size: 4em;
   animation: fadein 3s;
 }
 
 .header__content__text {
+  @media (max-width: 599px) {
+    font-size: 1.5em;
+  }
+  @media (max-width: 399px) {
+    font-size: 1.5em;
+  }
   font-size: 2.5em;
   animation: fadein 3s;
 }
