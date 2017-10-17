@@ -135,10 +135,9 @@ main {
     text-align: center;
     text-decoration: none; }
 
-/* Stillir upp forsíðu mynd í index.html */
-/* Stillir upp forsíðu mynd í about.html */
 .um_um .header__content {
   display: flex;
+  font-size: 2em;
   color: #fff; }
 
 .kaupa_kaupa .header__content {
@@ -301,12 +300,12 @@ form h2 {
 
 .panta_takki {
   padding: 0.5em 5em;
+  margin: 0 auto;
   font-size: 1em;
-  color: white;
+  color: #fff;
   text-decoration: none;
   background: rgba(80, 80, 80, 0.8);
-  border-radius: 5px;
-  margin: 0 auto; }
+  border-radius: 5px; }
 
 input[type=text] {
   /* stylelint-disable-line */
@@ -336,7 +335,15 @@ select:hover {
   margin-bottom: 1em; }
 
 .blockquote {
-  margin: 1em 0 1em 2em;
+  max-width: 50%;
+  margin: 1em 0 1em 1em;
   font-size: 1.5em;
   font-style: italic;
   line-height: 1.5; }
+
+.texti_og_blockquote {
+  display: flex;
+  width: 1200px; }
+
+.texti_hja_blockquote {
+  max-width: 50%; }

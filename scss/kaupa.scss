@@ -23,16 +23,16 @@ form h2 { /* stylelint-disable-line */
 
 .panta_takki {
   padding: 0.5em 5em;
+  margin: 0 auto;
   font-size: 1em;
-  color: white;
+  color: #fff;
   text-decoration: none;
   background: rgba(#505050, 0.8);
   border-radius: 5px;
-  margin: 0 auto;
 }
 
 input[type=text]{ /* stylelint-disable-line */
-  width:150%;
+  width: 150%;
   height: 1.5em;
   border: 1px solid #696969;
   border-radius: 3px;
